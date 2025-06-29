@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="sourse/styles/universal.css">
+  <link rel="stylesheet" href="sourse/styles/icon_service.css">
+  <link rel="stylesheet" href="sourse/styles/services_form.css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="sourse/images/icons/logo/icon2.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="sourse/images/icons/logo/icon2.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="sourse/images/icons/logo/icon2.png">
+  <link rel="manifest" href="sourse/images/icons/logo/icon2.png">
+  <title>Panda</title>
+</head>
+
+<body>
+  <header>
+    <div class="nav-bar">
+      <div class="brand">
+        <a class="img-brand" href="index.html"><img src="sourse/images/icons/logo/icon5.png" alt="icon"></a>
+        <a class="text-brand" href="index.html">PANDA</a>
+      </div>
+      <div class="pages">
+        <a href="index.html">Главная</a>
+        <a class="active-now" href="services.html">Услуги</a>
+        <a href="about_us.html">О нас</a>
+        <a href="login.html">Вход</a>
+      </div>
+      <button class="nav-btn">&#9776</button>
+    </div>
+  </header>
+
+  <section>
+    <div class="container-fluid">
+      <div class="main-container-contex text-center mx-3">
+        
+        <!-- поле поика услуги -->
+        
+        <div class="row">
+          <div class="offset-lg-3 offset-md-2 offset-1 offset-lg-3 col-lg-6 col-md-8 col-10">
+            <input id="search" class="my-input" type="text" placeholder="Найти">
+          </div>
+        </div>
+
+        <!-- иконки услуг -->
+
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <div class="icons-service">
+              <div class="row">
+                <div class="offset-lg-2 col-lg-2 col-md-3 col-sm-3 col-6 text-center">
+                  <a href="#face-teg">
+                    <img class="face" src="sourse/images/icons/face_icon.png" alt="face">
+                  </a>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-3 col-6 text-center">
+                  <a href="#body-teg">
+                    <img class="body" src="sourse/images/icons/body_icon.png" alt="body">
+                  </a>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-3 col-6 text-center">
+                  <a href="#hair-teg">
+                    <img class="hair" src="sourse/images/icons/hair_icon.png" alt="hair">
+                  </a>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-3 col-6 text-center">
+                  <a href="#nails-teg">
+                    <img id="icon-n" class="nails" src="sourse/images/icons/nails_icon.png" alt="nails">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- карточки услуг -->
+
+        <div class="row">
+
+          <div class="face-teg" id="face-teg">
+            <div class="row">
+
+              <h1 class="text-start group">Уход за лицом</h1>
+              <hr>
+
+              <div class="col-lg-3 col-md-4" id="card">
+                <div class="card card-fon">
+                  <div class="card">
+                    <a class="modal-trigger" href="#"><img src="sourse/images/фото/лицо/чистка.jpg" class="card-img-top"
+                        alt="..."></a>
+                    <div class="card-body">
+                      <h5 id="searchText" class="card-title"><a class="modal-trigger" href="#">Чистка</a></h5>
+                      <p class="card-text"><a class="modal-trigger" href="#">
+                          Процедура глубокого очищения кожи, направленная на удаление загрязнений, излишков кожного сала
+                          и ороговевших клеток
+                          Виды: механическая, ультразвуковая, комбинированная.
+                          Результат: свежая, гладкая кожа, уменьшение воспалений, выравнивание тона и текстуры.
+                        </a></p>
+                      <button class="my-card-button"><a class="modal-trigger" href="#">Подробнее</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-4" id="card">
+                <div class="card card-fon">
+                  <div class="card">
+                    <a class="modal-trigger" href="#"><img src="sourse/images/фото/лицо/маски.jpg" class="card-img-top"
+                        alt="..."></a>
+                    <div class="card-body">
+                      <h5 id="searchText" class="card-title"><a class="modal-trigger" href="#">Маски</a></h5>
+                      <p class="card-text"><a class="modal-trigger" href="#">
+                          Индивидуально подобранные маски для увлажнения, питания, очищения или восстановления кожи.
+                          Составы: на основе натуральных компонентов, витаминов, глины или водорослей.
+                          Результат: улучшение состояния кожи, глубокое питание, устранение сухости или жирного блеска.
+                        </a></p>
+                      <button class="my-card-button"><a class="modal-trigger" href="#">Подробнее</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-4" id="card">
+                <div class="card card-fon">
+                  <div class="card">
+                    <a class="modal-trigger" href="#"><img src="sourse/images/фото/лицо/мезотерапия.jpg"
+                        class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <h5 id="searchText" class="card-title"><a class="modal-trigger" href="#">Мезотерапия</a></h5>
+                      <p class="card-text"><a class="modal-trigger" href="#">
+                          Инъекционная процедура, позволяющая доставить активные вещества (витамины, аминокислоты,
+                          гиалуроновую кислоту) прямо в глубокие слои кожи.
+                          Эффект: увлажнение, устранение мелких морщин, улучшение цвета лица и упругости кожи.
+                          Подходит для борьбы с признаками старения и восстановления тонуса.
+                        </a></p>
+                      <button class="my-card-button"><a class="modal-trigger" href="#">Подробнее</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-4" id="card">
+                <div class="card card-fon">
+                  <div class="card">
+                    <a class="modal-trigger" href="#"><img src="sourse/images/фото/лицо/массаж.jpg" class="card-img-top"
+                        alt="..."></a>
+                    <div class="card-body">
+                      <h5 id="searchText" class="card-title"><a class="modal-trigger" href="#">Массаж</a></h5>
+                      <p class="card-text"><a class="modal-trigger" href="#">
+                          Ручной или аппаратный массаж для улучшения кровообращения, снятия отёков и улучшения контура
+                          лица.
+                          Виды: классический, лимфодренажный, скульптурирующий.
+                          Результат: подтянутая кожа, расслабленные мышцы, здоровое сияние.
+                        </a></p>
+                      <button class="my-card-button"><a class="modal-trigger" href="#">Подробнее</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- <a class="more-button" href="">Ещё</a> -->
+          </div>
+
+          <div class="body-teg" id="body-teg">
+            <div class="row">
+
+              <h1 class="text-start group">Уход за телом</h1>
+              <hr>
+
+              <div class="col-lg-3 col-md-4" id="card">
+                <div class="card card-fon">
+                  <div class="card">
+                    <a class="modal-trigger" href="#"><img src="sourse/images/фото/тело/массаж.jpg" class="card-img-top"
+                        alt="..."></a>
+                    <div class="card-body">
+                      <h5 id="searchText" class="card-title"><a class="modal-trigger" href="#">Массаж</a></h5>
+                      <p class="card-text"><a class="modal-trigger" href="#">
+                          Процедура для снятия напряжения, расслабления мышц и улучшения общего самочувствия.
+                          Виды: классический, антистрессовый, лимфодренажный, спортивный.
+                          Эффект: уменьшение мышечного напряжения, улучшение кровообращения, повышение тонуса кожи.
+                        </a></p>
+                      <button class="my-card-button"><a class="modal-trigger" href="#">Подробнее</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-4" id="card">
+                <div class="card card-fon">
+                  <div class="card">
+                    <a class="modal-trigger" href="#"><img src="sourse/images/фото/тело/пилинг.jpg" class="card-img-top"
+                        alt="..."></a>
+                    <div class="card-body">
+                      <h5 id="searchText" class="card-title"><a class="modal-trigger" href="#">Пилинг</a></h5>
+                      <p class="card-text"><a class="modal-trigger" href="#">
+                          Глубокое очищение кожи с помощью скрабов, кислот или энзимов.
+                          Компоненты: сахар, соль, кофе, натуральные масла.
+                          Эффект: удаление ороговевших клеток, выравнивание текстуры кожи, восстановление её мягкости и
+                          упругости.
+                        </a></p>
+                      <button class="my-card-button"><a class="modal-trigger" href="#">Подробнее</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-4" id="card">
+                <div class="card card-fon">
+                  <div class="card">
+                    <a class="modal-trigger" href="#"><img src="sourse/images/фото/тело/депиляция.jpg"
+                        class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <h5 id="searchText" class="card-title"><a class="modal-trigger" href="#">Депиляция</a></h5>
+                      <p class="card-text"><a class="modal-trigger" href="#">
+                          Эффективное удаление нежелательных волос с использованием воска, шугаринга или других методов.
+                          Зоны: ноги, руки, спина, зона бикини.
+                          Эффект: гладкость кожи, отсутствие раздражения, долговременный результат.
+                        </a></p>
+                      <button class="my-card-button"><a class="modal-trigger" href="#">Подробнее</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-4" id="card">
+                <div class="card card-fon">
+                  <div class="card">
+                    <a class="modal-trigger" href="#"><img src="sourse/images/фото/тело/обёртывание.jpg"
+                        class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <h5 id="searchText" class="card-title"><a class="modal-trigger" href="#">Обёртывание</a></h5>
+                      <p class="card-text"><a class="modal-trigger" href="#">
+                          Процедура, направленная на питание, увлажнение кожи и борьбу с целлюлитом.
+                          Компоненты: водоросли, грязи, шоколад, глина.
+                          Эффект: улучшение тонуса кожи, уменьшение объёмов, борьба с растяжками и целлюлитом.
+                        </a></p>
+                      <button class="my-card-button"><a class="modal-trigger" href="#">Подробнее</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-4" id="card">
+                <div class="card card-fon">
+                  <div class="card">
+                    <a class="modal-trigger" href="#"><img src="sourse/images/фото/тело/стоун-терапия.jpg"
+                        class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <h5 id="searchText" class="card-title"><a class="modal-trigger" href="#">Стоун-терапия</a></h5>
+                      <p class="card-text"><a class="modal-trigger" href="#">
+                          Массаж с использованием нагретых или охлаждённых камней для расслабления и оздоровления.
+                          Эффект: снятие мышечного напряжения, стимуляция кровообращения, релаксация.
+                          Идеально для: восстановления после стресса или физических нагрузок.
+                        </a></p>
+                      <button class="my-card-button"><a class="modal-trigger" href="#">Подробнее</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-4" id="card">
+                <div class="card card-fon">
+                  <div class="card">
+                    <a class="modal-trigger" href="#"><img src="sourse/images/фото/тело//вакуумный массаж.jpg"
+                        class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <h5 id="searchText" class="card-title"><a class="modal-trigger" href="#">Вакуум-массаж</a></h5>
+                      <p class="card-text"><a class="modal-trigger" href="#">
+                          Аппаратная процедура, стимулирующая лимфодренаж и кровообращение.
+                          Эффект: устранение отёков, уменьшение целлюлита, подтяжка кожи.
+                          Особенность: помогает бороться с жировыми отложениями и моделировать фигуру.
+                        </a></p>
+                      <button class="my-card-button"><a class="modal-trigger" href="#">Подробнее</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="hair-teg" id="hair-teg">
+            <div class="row">
+
+              <h1 class="text-start group">Уход за волосами</h1>
+              <hr>
+
+              <div class="col-lg-3 col-md-4" id="card">
+                <div class="card card-fon">
+                  <div class="card">
+                    <a class="modal-trigger" href="#"><img src="sourse/images/фото/волосы/укладка.jpg"
+                        class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <h5 id="searchText" class="card-title"><a class="modal-trigger" href="#">Укладка</a></h5>
+                      <p class="card-text"><a class="modal-trigger" href="#">
+                          Создание стильного и элегантного образа с помощью профессиональных техник укладки.
+                          Виды: повседневная, вечерняя, текстурированная, с использованием плойки или утюжка.
+                          Эффект: аккуратный и стойкий результат, подчёркивающий вашу индивидуальность.
+                        </a></p>
+                      <button class="my-card-button"><a class="modal-trigger" href="#">Подробнее</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-4" id="card">
+                <div class="card card-fon">
+                  <div class="card">
+                    <a class="modal-trigger" href="#"><img src="sourse/images/фото/волосы/ламинирование.jpg"
+                        class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <h5 id="searchText" class="card-title"><a class="modal-trigger" href="#">Ламинирование</a></h5>
+                      <p class="card-text"><a class="modal-trigger" href="#">
+                          Процедура для придания волосам блеска и гладкости за счёт нанесения защитного состава.
+                          Эффект: ровные, шелковистые волосы, восстановление повреждённой структуры, защита от внешних
+                          воздействий.
+                          Подходит для: тусклых и сухих волос.
+                        </a></p>
+                      <button class="my-card-button"><a class="modal-trigger" href="#">Подробнее</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-4" id="card">
+                <div class="card card-fon">
+                  <div class="card">
+                    <a class="modal-trigger" href="#"><img src="sourse/images/фото/волосы/стрижка.jpg"
+                        class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <h5 id="searchText" class="card-title"><a class="modal-trigger" href="#">Стрижка</a></h5>
+                      <p class="card-text"><a class="modal-trigger" href="#">
+                          Создание новой формы волос с учётом ваших пожеланий и особенностей внешности.
+                          Виды: классическая, креативная, градуированная, каре, пикси и другие.
+                          Эффект: обновлённый стиль, здоровые кончики, ухоженный вид.
+                        </a></p>
+                      <button class="my-card-button"><a class="modal-trigger" href="#">Подробнее</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-4" id="card">
+                <div class="card card-fon">
+                  <div class="card">
+                    <a class="modal-trigger" href="#"><img src="sourse/images/фото/волосы/окрашивание.jpg"
+                        class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <h5 id="searchText" class="card-title"><a class="modal-trigger" href="#">Окрашивание</a></h5>
+                      <p class="card-text"><a class="modal-trigger" href="#">
+                          Изменение цвета волос с использованием профессиональных красителей.
+                          Виды: однотонное, мелирование, балаяж, омбре, шатуш.
+                          Эффект: свежий и выразительный образ, глубокие и насыщенные оттенки.
+                          Особенность: используется безопасная косметика для сохранения здоровья волос.
+                        </a></p>
+                      <button class="my-card-button"><a class="modal-trigger" href="#">Подробнее</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-4" id="card">
+                <div class="card card-fon">
+                  <div class="card">
+                    <a class="modal-trigger" href="#"><img src="sourse/images/фото/волосы/причёска.jpg"
+                        class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <h5 id="searchText" class="card-title"><a class="modal-trigger" href="#">Причёска</a></h5>
+                      <p class="card-text"><a class="modal-trigger" href="#">
+                          Создание сложных и элегантных причёсок для особых случаев.
+                          Виды: свадебные, вечерние, плетения, пучки, локоны.
+                          Эффект: аккуратный и стойкий образ, подчёркивающий вашу индивидуальность.
+                          Подходит для: торжеств, фотосессий, мероприятий.
+                        </a></p>
+                      <button class="my-card-button"><a class="modal-trigger" href="#">Подробнее</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="nails-teg" id="nails-teg">
+            <div class="row">
+
+              <h1 class="text-start group">Уход за ногтями</h1>
+              <hr>
+
+              <div class="col-lg-3 col-md-4" id="card">
+                <div class="card card-fon">
+                  <div class="card">
+                    <a class="modal-trigger" href="#"><img src="sourse/images/фото/ногти/френч.jpg" class="card-img-top"
+                        alt="..."></a>
+                    <div class="card-body">
+                      <h5 id="searchText" class="card-title"><a class="modal-trigger" href="#">Френч</a></h5>
+                      <p class="card-text"><a class="modal-trigger" href="#">
+                          Классический стиль с белой полоской на кончике ногтя.
+                          Эффект: изысканный, элегантный образ, подходящий для любого случая.
+                          Особенность: универсальный вариант, который сочетается с любым стилем.
+                          Варианты: маникюр, педикюр; покрытие - глянцевое, матовое; гель лак, декорный лак; все
+                          возможные виды форм и длины
+                          ногтевой пластины; дизайн - яркие, нежные.
+                        </a></p>
+                      <button class="my-card-button"><a class="modal-trigger" href="#">Подробнее</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-4" id="card">
+                <div class="card card-fon">
+                  <div class="card">
+                    <a class="modal-trigger" href="#"><img src="sourse/images/фото/ногти/однотонный.jpg"
+                        class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <h5 id="searchText" class="card-title"><a class="modal-trigger" href="#">Однотонный</a></h5>
+                      <p class="card-text"><a class="modal-trigger" href="#">
+                          Нанесение лака или гель-лака в одном оттенке.
+                          Эффект: аккуратные, стильные ногти с глубоким насыщенным цветом.
+                          Популярные цвета: нюдовые, яркие или пастельные оттенки.
+                          Варианты: маникюр, педикюр; покрытие - глянцевое, матовое; гель лак, декорный лак; все
+                          возможные виды форм и длины
+                          ногтевой пластины; дизайн - яркие, нежные.
+                        </a></p>
+                      <button class="my-card-button"><a class="modal-trigger" href="#">Подробнее</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-4" id="card">
+                <div class="card card-fon">
+                  <div class="card">
+                    <a class="modal-trigger" href="#"><img src="sourse/images/фото/ногти/лунный.jpg"
+                        class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <h5 id="searchText" class="card-title"><a class="modal-trigger" href="#">Лунный</a></h5>
+                      <p class="card-text"><a class="modal-trigger" href="#">
+                          Акцент на лунке ногтя с помощью цветного покрытия.
+                          Эффект: утончённый и необычный дизайн с акцентом на натуральную форму ногтя.
+                          Подходит для: классического и креативного стиля.
+                          Варианты: маникюр, педикюр; покрытие - глянцевое, матовое; гель лак, декорный лак; все
+                          возможные виды форм и длины
+                          ногтевой пластины; дизайн - яркие, нежные.
+                        </a></p>
+                      <button class="my-card-button"><a class="modal-trigger" href="#">Подробнее</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-4" id="card">
+                <div class="card card-fon">
+                  <div class="card">
+                    <a class="modal-trigger" href="#"><img src="sourse/images/фото/ногти/градиент.jpg"
+                        class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <h5 id="searchText" class="card-title"><a class="modal-trigger" href="#">Омбре</a></h5>
+                      <p class="card-text"><a class="modal-trigger" href="#">
+                          Плавный переход оттенков на ногтях.
+                          Эффект: модный и стильный вид с нежным или контрастным переходом цветов.
+                          Особенность: возможен вертикальный или горизонтальный градиент.
+                          Варианты: маникюр, педикюр; покрытие - глянцевое, матовое; гель лак, декорный лак; все
+                          возможные виды форм и длины
+                          ногтевой пластины; дизайн - яркие, нежные.
+                        </a></p>
+                      <button class="my-card-button"><a class="modal-trigger" href="#">Подробнее</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-4" id="card">
+                <div class="card card-fon">
+                  <div class="card">
+                    <a class="modal-trigger" href="#"><img src="sourse/images/фото/ногти/с рисунком.jpg"
+                        class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <h5 id="searchText" class="card-title"><a class="modal-trigger" href="#">С рисунком</a></h5>
+                      <p class="card-text"><a class="modal-trigger" href="#">
+                          Декор ногтей с помощью художественной росписи или наклеек.
+                          Эффект: уникальный дизайн, который подчёркивает индивидуальность.
+                          Тематика: цветы, геометрия, животные, праздничные мотивы.
+                          Варианты: маникюр, педикюр; покрытие - глянцевое, матовое; гель лак, декорный лак; все
+                          возможные виды форм и длины
+                          ногтевой пластины; дизайн - яркие, нежные.
+                        </a></p>
+                      <button class="my-card-button"><a class="modal-trigger" href="#">Подробнее</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-4" id="card">
+                <div class="card card-fon">
+                  <div class="card">
+                    <a class="modal-trigger" href="#"><img src="sourse/images/фото/ногти/уходовый.jpg"
+                        class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <h5 id="searchText" class="card-title"><a class="modal-trigger" href="#">Уходовый</a></h5>
+                      <p class="card-text"><a class="modal-trigger" href="#">
+                          Процедура для оздоровления ногтей и кутикулы.
+                          Этапы: обработка кутикулы, придание формы ногтям, уход за кожей рук.
+                          Эффект: ухоженные и здоровые ногти, готовность к любому покрытию.
+                          Варианты: маникюр, педикюр; покрытие - глянцевое, матовое; гель лак, декорный лак; все
+                          возможные виды форм и длины
+                          ногтевой пластины; дизайн - яркие, нежные.
+                        </a></p>
+                      <button class="my-card-button"><a class="modal-trigger" href="#">Подробнее</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-4" id="card">
+                <div class="card card-fon">
+                  <div class="card">
+                    <a class="modal-trigger" href="#"><img src="sourse/images/фото/ногти/смешанный.jpg"
+                        class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <h5 id="searchText" class="card-title"><a class="modal-trigger" href="#">Смешанный</a></h5>
+                      <p class="card-text"><a class="modal-trigger" href="#">
+                          Комбинирование различных техник и стилей.
+                          Эффект: креативные и уникальные ногти с использованием френча, омбре, страз или рисунков.
+                          Подходит для: тех, кто хочет выделиться.
+                          Варианты: маникюр, педикюр; покрытие - глянцевое, матовое; гель лак, декорный лак; все
+                          возможные виды форм и длины
+                          ногтевой пластины; дизайн - яркие, нежные.
+                        </a></p>
+                      <button class="my-card-button"><a class="modal-trigger" href="#">Подробнее</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-4" id="card">
+                <div class="card card-fon">
+                  <div class="card">
+                    <a class="modal-trigger" href="#"><img src="sourse/images/фото/ногти/со стразами.jpg"
+                        class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <h5 id="searchText" class="card-title"><a class="modal-trigger" href="#">Со стразами</a></h5>
+                      <p class="card-text"><a class="modal-trigger" href="#">
+                          Украшение ногтей кристаллами для создания роскошного образа.
+                          Эффект: яркий, эффектный вид, идеально подходит для мероприятий.
+                          Особенность: возможен минималистичный акцент или полный декор.
+                          Варианты: маникюр, педикюр; покрытие - глянцевое, матовое; гель лак, декорный лак; все
+                          возможные виды форм и длины
+                          ногтевой пластины; дизайн - яркие, нежные.
+                        </a></p>
+                      <button class="my-card-button"><a class="modal-trigger" href="#">Подробнее</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-4" id="card">
+                <div class="card card-fon">
+                  <div class="card">
+                    <a class="modal-trigger" href="#"><img src="sourse/images/фото/ногти/цветной.jpg"
+                        class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <h5 id="searchText" class="card-title"><a class="modal-trigger" href="#">Цветной</a></h5>
+                      <p class="card-text"><a class="modal-trigger" href="#">
+                          Использование ярких или контрастных оттенков в дизайне.
+                          Эффект: привлекающие внимание ногти, подчёркивающие настроение.
+                          Особенность: возможность игры с палитрой и акцентами.
+                          Варианты: маникюр, педикюр; покрытие - глянцевое, матовое; гель лак, декорный лак; все
+                          возможные виды форм и длины
+                          ногтевой пластины; дизайн - яркие, нежные.
+                        </a></p>
+                      <button class="my-card-button"><a class="modal-trigger" href="#">Подробнее</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Модальное окно -->
+
+        <div id="myModal" class="modal">
+
+          <div class="modal-content">
+
+            <div class="modal-close ">
+              <img class="w-100" src="sourse/images/icons/close_3.png" alt="close">
+            </div>
+
+            <div class="in-modal-content">
+
+              <div class="servise-name ">
+                Чистка
+              </div>
+  
+              <div class="row">
+  
+                <div class="col-lg-6 col-md-6">
+                  <div class="modal-img">
+                    <img class="w-100 img-fluid" src="sourse/images/фото/лицо/чистка.jpg" alt=" ">
+                  </div>
+                </div>
+  
+                <div class="col-lg-6 col-md-6">
+  
+                  <div class="my-description">
+                    <h4>ОПИСАНИЕ ПРОЦЕДУРЫ</h4>
+                    <div class="first-container-service-description">
+                      <div class="container-service-description">
+                        <div class="text-description">
+                          Процедура глубокого очищения кожи, направленная на удаление загрязнений, излишков кожного сала и
+                          ороговевших клеток.
+                          Виды: механическая, ультразвуковая, комбинированная.
+                          Результат: свежая, гладкая кожа, уменьшение воспалений, выравнивание тона и текстуры.
+                          акценты.
+                        </div>
+                      </div>
+                    </div>
+  
+                    <div class="service-price">
+                      <span>ЦЕНА:</span>
+                      <span class="price">13,56р</span>
+                    </div>
+  
+                    <button class="order-btn">ЗАКАЗАТЬ</button>
+  
+                  </div>
+  
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- чат-бот -->
+
+        <div class="chat-icon">
+          <img class="w-100" src="sourse/images/icons/chat/chat_13.png" alt="chat">
+        </div>
+        <div class="chat-bot hide">
+          <div class="close">
+            <img class="w-100" src="sourse/images/icons/chat/close_0.png" alt="close">
+          </div>
+          <div class="description">
+            Чат поддержки
+          </div>
+
+          <div class="chat" id="messages" style="overflow-y: scroll;">
+
+          </div>
+
+          <div class="input-chat">
+            <input type="text" id="input">
+            <img src="sourse/images/icons/chat/input_1.png" alt="input" onclick="sendMessage()">
+          </div>
+        </div>
+        
+        <!-- фиксированные сбоку иконки услуг -->
+
+        <div class="fix-icon">
+          <div class="icon-right-f m-3">
+            <a href="#face-teg"><img class="w-100" src="sourse/images/icons/face_icon_2.png" alt="chat"></a>
+          </div>
+          <div class="icon-right-b m-3">
+            <a href="#body-teg"><img class="w-100" src="sourse/images/icons/body_icon_2.png" alt="chat"></a>
+          </div>
+          <div class="icon-right-h m-3">
+            <a href="#hair-teg"><img class="w-100" src="sourse/images/icons/hair_icon_2.png" alt="chat"></a>
+          </div>
+          <div class="icon-right-n m-3">
+            <a href="#nails-teg"><img class="w-100" src="sourse/images/icons/nails_icon_2.png" alt="chat"></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 footer-text text-center mt-3">
+          <p>&copy; 2024 PANDA. All rights reserved.</p>
+        </div>
+        <div class="col-lg-5 col-md-12 footer-text text-center mt-3 mb-2">
+          <p>г. Гродно, ул. Фолюш,25<br>с 9.00 до 22.00, без обеда и выходных<br>тел: +375(29)88*-3*-22<br><a
+              href="mailto:salon_panda@mail.ru">salon_panda@mail.ru</a></p>
+        </div>
+        <div class="col-lg-3 col-md-12 icons">
+          <div class="tg">
+            <a href="#"><img style="width: 40px; margin-inline: 1em;" src="sourse/images/соцсети/tg.png"
+                alt="telegram"></a>
+          </div>
+          <div class="yt">
+            <a href="#"><img style="width: 40px; margin-inline: 1em;" src="sourse/images/соцсети/yt.png"
+                alt="youtube"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="sourse/scripts/for_services_form.js"></script>
+  <script src="sourse/scripts/universal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

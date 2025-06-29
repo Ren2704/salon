@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="sourse/styles/universal.css">
+    <link rel="stylesheet" href="sourse/styles/login_form.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="sourse/images/icons/logo/icon2.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="sourse/images/icons/logo/icon2.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="sourse/images/icons/logo/icon2.png">
+    <link rel="manifest" href="sourse/images/icons/logo/icon2.png">
+    <title>Panda</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav-bar">
+            <div class="brand">
+                <a class="img-brand" href="index.html"><img src="sourse/images/icons/logo/icon5.png" alt="icon"></a>
+                <a class="text-brand" href="index.html">PANDA</a>
+            </div>
+            <div class="pages">
+                <a href="index.html">Главная</a>
+                <a href="services.html">Услуги</a>
+                <a href="about_us.html">О нас</a>
+                <a class="active-now" href="login.html">Вход</a>
+            </div>
+            <button class="nav-btn">&#9776</button>
+        </div>
+    </header>
+
+    <section>
+
+        <!-- видео заднего фона -->
+
+        <div class="bg-video">
+            <video src="sourse/files/видеозаставка.mp4" type="video/mp4" autoplay muted loop>
+            </video>
+
+            <!-- формы на видео -->
+
+            <div class="video-content">
+                
+                <div class="input-form">
+                    <div class="wrapper">
+
+                        <!-- форма авторизации -->
+
+                        <div class="form-box login">
+                            <h2>Вход</h2>
+                            <form id="loginForm">
+                                <div class="input-box">
+                                    <input type="text" id="loginUsername" required placeholder=" " minlength="3" maxlength="20">
+                                    <label>Логин</label>
+                                    <small class="error-message"></small>
+                                </div>
+                                <div class="input-box">
+                                    <input type="password" id="loginPassword" required placeholder=" " minlength="8">
+                                    <label>Пароль</label>
+                                    <small class="error-message"></small>
+                                </div>
+                                <button type="submit" class="btn">Продолжить</button>
+                                <div class="login-register">
+                                    <p>
+                                        Нет аккаунта? <a href="#" class="register-link" id="register-link">РЕГИСТРАЦИЯ</a>
+                                    </p>
+                                </div>
+                            </form>
+                        </div>
+
+                        <!-- форма регистрации -->
+                
+                        <div class="form-box register">
+                            <h2>Регистрация</h2>
+                            <form id="registerForm">
+                                <div class="input-box">
+                                    <input type="text" id="registerName" required placeholder=" ">
+                                    <label>Имя</label>
+                                    <small class="error-message"></small>
+                                </div>
+                                <div class="input-box">
+                                    <input type="text" id="registerPhone" required placeholder=" ">
+                                    <label>Телефон</label>
+                                    <small class="error-message"></small>
+                                </div>
+                                <div class="input-box">
+                                    <input type="text" id="registerUsername" required placeholder=" " minlength="3" maxlength="20">
+                                    <label>Логин</label>
+                                    <small class="error-message"></small>
+                                </div>
+                                <div class="input-box">
+                                    <input type="password" id="registerPassword" required placeholder=" " minlength="8">
+                                    <label>Пароль</label>
+                                    <small class="error-message"></small>
+                                </div>
+                                <button type="submit" class="btn">Продолжить</button>
+                                <div class="login-register">
+                                    <p>
+                                        Уже есть аккаунт? <a href="#" class="login-link" id="login-link">ВХОД</a>
+                                    </p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 footer-text text-center mt-3">
+                    <p>&copy; 2024 PANDA. All rights reserved.</p>
+                </div>
+                <div class="col-lg-5 col-md-12 footer-text text-center mt-3 mb-2">
+                    <p>г. Гродно, ул. Фолюш,25<br>с 9.00 до 22.00, без обеда и выходных<br>тел: +375(29)88*-3*-22<br><a
+                            href="mailto:salon_panda@mail.ru">salon_panda@mail.ru</a></p>
+                </div>
+                <div class="col-lg-3 col-md-12 icons">
+                    <div class="tg">
+                        <a href="#"><img style="width: 40px; margin-inline: 1em;" src="sourse/images/соцсети/tg.png"
+                                alt="telegram"></a>
+                    </div>
+                    <div class="yt">
+                        <a href="#"><img style="width: 40px; margin-inline: 1em;" src="sourse/images/соцсети/yt.png"
+                                alt="youtube"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="sourse/scripts/for_login_form.js"></script>
+    <script src="sourse/scripts/universal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

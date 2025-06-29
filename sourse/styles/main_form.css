@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&display=swap');
+
+/* внешний вид видео + адаптивность */
+
+.bg-video {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    mix-blend-mode:darken;
+}
+
+.bg-video video {
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.bg-video::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    pointer-events: none;
+}
+
+/* текст на видео */
+
+.video-text {
+    z-index: 3;
+    font-size: 6em;
+    color: rgb(255, 252, 248);
+    font-family: "Gowun Batang", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* карусель */
+
+.carousel-img {
+    width: 100%;
+}
+
+.carousel-img-container {
+    padding: 0;
+}
+
+.carousel-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(218, 209, 198);
+    color:rgb(141, 100, 67);
+    font-size: 2.5em;
+    padding-inline: 0.5em;
+
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* адаптивность для карусели и иконок услуг */
+
+@media (max-width: 1080px) {
+    .carousel-text {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 1070px) {
+    .icon-text {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 1030px) {
+    .icon-text {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 800px) {
+    .carousel-text {
+        font-size: 1.5em;
+    }
+    .icon-text {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 600px) {
+    .carousel-text {
+        font-size: 0.65em;
+    }
+    .icons-service {
+        margin-block: 1.5rem;
+    }
+    .icon-text {
+        font-size: 1em;
+        margin: 0.8em;
+    }
+}
+
+@media (max-width: 370px) {
+    .icon-text {
+        font-size: 0.8em;
+    }
+}

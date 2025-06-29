@@ -1,0 +1,28 @@
+/* иконки услуг */
+
+.icons-service {
+    margin-block: 3rem;
+}
+
+.icons-service a {
+    text-decoration: none;
+    color: #000;
+}
+
+.icon-text {
+    margin-top: 0.65em; 
+    font-size: 1.2em;
+}
+
+.face, .body,
+.hair, .nails {
+    width: 65%;
+    transition: 500ms;
+}
+
+.face:hover,
+.body:hover,
+.hair:hover, 
+.nails:hover {
+    scale: 120%;
+}
